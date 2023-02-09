@@ -1,14 +1,14 @@
 export class Contact {
-    nombre = "";
-    apellido = "";
+    name = "";
+    lastname = "";
     email = "";
-    conectado = false;
+    state = false;
 
-    constructor(nombre, apellido, email, conectado){
-        this.nombre = nombre; 
-        this.apellido = apellido; 
+    constructor(name, lastname, email, state ){
+        this.nombre = name; 
+        this.apellido = lastname; 
         this.email = email;
-        this.conectado = conectado;
+        this.state = state;
     }
 }
 
