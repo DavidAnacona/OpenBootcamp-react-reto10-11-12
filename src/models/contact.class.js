@@ -5,8 +5,8 @@ export class Contact {
     state = false;
 
     constructor(name, lastname, email, state ){
-        this.nombre = name; 
-        this.apellido = lastname; 
+        this.name = name; 
+        this.lastname = lastname; 
         this.email = email;
         this.state = state;
     }
